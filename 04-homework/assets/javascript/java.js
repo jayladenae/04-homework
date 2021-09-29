@@ -55,6 +55,10 @@ var myQuestions = [
 ];
 
  startBtn.addEventListener("click", function (){
+    header.style.display = 'none';
+    startBtn.style.display = 'none';
+    console.log(myQuestions);
+    // document.body.append(myQuestions[0].question);
    var timeRem = 300; 
    var timeInt = setInterval(function (){
        if (timeRem > 1){
@@ -66,4 +70,4 @@ var myQuestions = [
        }
    }, 1000);
 
-   });
+})
