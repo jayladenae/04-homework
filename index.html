@@ -2,53 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab&display=swap&effect=emboss" rel="stylesheet">
-    <title>Quiz!</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="assets/reset.css"> -->
+    <link rel="stylesheet" href="assets//css/style.css">
+    <title>Code Quiz</title>
 </head>
-<body>
-    <div id="timer">Timer:</div>
-    <div id="timerDisplay"></div>
-    <h1 id="h1">
-        Click the button to start the quiz!
-    </h1>
-    <button id="startBtn">START</button>
-    <div id="quiz"></div>
-    <div id="score"></div>
-    <div id="quest"></div>
-    <div class="form-check form" >
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
-        <label id="b1" class="form-check-label buttons" for="flexRadioDefault1" >
-          
-        </label>
-      </div>
-      <div class="form-check form" >
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-        <label class="form-check-label1 buttons" for="flexRadioDefault1">
-          
-        </label>
-      </div>
-      <div class="form-check form" >
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-        <label class="form-check-label2 buttons" for="flexRadioDefault1">
-          
-        </label>
-      </div>
-      <div class="form-check form" >
-        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-        <label class="form-check-label3 buttons" for="flexRadioDefault2">
-          
-        </label>
-      </div> 
-      <button id="submitBtn" class="hidden">Submit</button>
-      <script
-            src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous">
-        </script>
-    <script type="text/javascript" src="./assets/javascript/javascript.js"></script> 
+<body>  
+   
+    <header>
+        <h1 class="title" style="text-align:center;">Code Quiz</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="quiz-holder">
+                    <h1 id="question">press start to begin the quiz</h1>
+                    <p id="timer"></p>
+                </div>
+                <div id="answer-grid" value="Hello">
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" value="John"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <div id="submit">
+                    <button class="btn" id="bottom-btn">Start</button>
+                    <button class="btn" id="next-btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets//javascript/script.js"></script>
 </body>
 </html>
