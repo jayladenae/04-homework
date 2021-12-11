@@ -1,5 +1,5 @@
 # Code Quiz
-[https://jayladenae.github.io/04-homework](https://jayladenae.github.io/04-homework)
+[https://jayladenae.github.io/Code-Quiz/](https://jayladenae.github.io/Code-Quiz/)
 
 ## Description 
 A timed, 5 question code quiz using jQuery.
@@ -18,7 +18,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
-
+![Screenshot](code-quiz-screenshot.png)
 ### License
 ![MIT License](https://img.shields.io/apm/l/PACK?style=plastic)
 
